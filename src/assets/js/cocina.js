@@ -300,7 +300,6 @@ setInterval(() => {
   document.getElementById("time").textContent = `${hour12}:${minutes} ${ampm}`;
 }, 1000); // Ejecuta esta función cada 1000 ms (1 segundo)
 
-
 // ── ADMIN ─────────────────────────────────────────────────────────────
 function renderInventarioAdmin() {
   const tbody = document.getElementById("tablaInventario");
